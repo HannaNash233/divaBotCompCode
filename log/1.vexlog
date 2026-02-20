@@ -1,0 +1,1000 @@
+00:03:13 (0) Program start slot 1
+00:04:37 (2) Motor Motor over temp 1 on port 9
+00:04:45 (2) Motor Motor over temp 1 on port 8
+00:05:10 (2) Motor Motor over temp 1 on port 10
+00:05:33 (2) Motor Motor over temp 1 on port 3
+00:06:31 (2) Motor Motor over temp 1 on port 2
+00:07:14 (2) Motor Motor over temp 1 on port 1
+00:09:19 (2) Motor Motor over temp 1 on port 4
+00:09:37 (2) Motor Motor over temp 1 on port 20
+00:09:56 (0) Program stop
+00:00:00 (1) Power On
+00:00:09 (0) Program start slot 1
+00:00:47 (0) Program stop
+00:00:00 (1) Power On
+00:03:49 (2) Lost radio connection
+00:03:57 (0) Program start slot 1
+00:04:02 (0) Program start slot 1
+00:04:33 (0) Program stop
+00:05:18 (0) Program start slot 1
+00:05:20 (0) Program start slot 1
+00:09:02 (0) Program stop
+00:09:55 (2) Lost radio connection
+00:10:15 (0) Program start slot 1
+00:10:23 (0) Program start slot 1
+00:10:36 (0) Program stop
+00:11:32 (0) Program start slot 1
+00:13:11 (2) Lost radio connection
+00:13:53 (0) Program stop
+00:00:00 (1) Power On
+00:00:15 (0) Program start slot 1
+00:00:28 (0) Program stop
+00:00:31 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:44 (0) Program start slot 1
+00:01:21 (0) Program stop
+00:01:24 (2) Lost radio connection
+00:01:33 (0) Program start slot 1
+00:07:11 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:01 (0) Field tether connected
+00:00:01 (3) Battery 13.18V  96% Capacity
+00:00:01 (0) Disabled
+12:40:41 (4) --> 12:40:41
+12:40:41 (4) VRC-25-1658
+12:41:59 (0) Drive Start
+12:42:01 (0) Disabled
+12:44:13 (0) Program start slot 1
+12:44:23 (4) DS-1-1
+12:44:25 (0) Drive Start
+12:44:27 (0) Disabled
+12:44:41 (0) Program stop
+12:44:43 (0) Program start slot 1
+12:44:55 (0) Drive Start
+12:45:55 (0) Disabled
+12:47:43 (2) Lost radio connection
+12:48:47 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:01 (0) Field tether connected
+00:00:01 (3) Battery 13.18V  99% Capacity
+00:00:01 (0) Disabled
+13:16:21 (4) --> 13:16:21
+13:16:21 (4) VRC-25-1658
+13:16:21 (4) DS-1-1
+13:17:16 (2) Lost radio connection
+13:17:29 (0) Radio linked
+13:17:40 (2) Lost radio connection
+13:17:46 (0) Radio linked
+13:17:50 (2) Lost radio connection
+13:18:30 (0) Radio linked
+13:19:13 (0) Program start slot 1
+13:19:30 (0) Drive Start
+13:20:30 (0) Disabled
+13:21:31 (0) Program stop
+13:21:37 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:42 (2) Lost radio connection
+00:00:46 (0) Field tether connected
+00:00:46 (3) Battery 12.99V  81% Capacity
+00:00:46 (0) Disabled
+14:34:43 (4) --> 14:34:43
+14:34:43 (4) VRC-25-1658
+14:34:43 (4) PS-1-1
+14:34:49 (0) Program start slot 1
+14:34:58 (4) DS-1-1
+14:35:00 (0) Drive Start
+14:36:00 (0) Disabled
+14:36:04 (2) Lost radio connection
+14:41:05 (0) Program stop
+14:42:42 (0) Program start slot 1
+14:42:46 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:55 (2) Lost radio connection
+00:00:57 (0) Field tether connected
+00:00:57 (3) Battery 13.12V  99% Capacity
+00:00:57 (0) Disabled
+15:14:12 (4) --> 15:14:12
+15:14:12 (4) VRC-25-1658
+15:14:12 (4) DS-1-1
+15:14:16 (0) Program start slot 1
+15:14:25 (0) Drive Start
+15:15:25 (0) Disabled
+15:16:39 (0) Program stop
+15:16:41 (2) Lost radio connection
+00:00:00 (1) Power On
+00:01:05 (2) Lost radio connection
+00:01:11 (0) Program start slot 1
+00:01:50 (0) Program start slot 1
+00:02:26 (0) Program start slot 1
+00:02:41 (0) Program stop
+00:03:05 (2) Lost radio connection
+00:06:07 (2) Lost radio connection
+00:00:00 (1) Power On
+00:02:33 (2) Lost radio connection
+00:02:39 (0) Program start slot 1
+00:00:00 (1) Power On
+00:05:56 (2) Lost radio connection
+00:06:03 (0) Program start slot 1
+00:06:43 (0) Program start slot 1
+00:07:07 (0) Program stop
+00:07:23 (0) Program start slot 1
+00:07:30 (0) Program start slot 1
+00:07:54 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:07 (0) Program start slot 1
+00:00:48 (0) Program stop
+00:00:49 (2) Lost radio connection
+00:00:55 (0) Program start slot 1
+00:01:17 (0) Program start slot 1
+00:02:40 (0) Program start slot 1
+00:03:46 (0) Program stop
+00:03:52 (0) Program start slot 1
+00:04:24 (0) Program start slot 1
+00:04:38 (0) Program start slot 1
+00:05:26 (0) Program stop
+00:00:00 (1) Power On
+00:01:02 (2) Lost radio connection
+00:01:08 (0) Program start slot 1
+00:01:41 (0) Program start slot 1
+00:01:48 (0) Program start slot 1
+00:02:07 (0) Program stop
+00:02:52 (0) Program start slot 1
+00:02:55 (0) Program start slot 1
+00:03:18 (0) Program stop
+00:03:52 (0) Program start slot 1
+00:03:55 (0) Program start slot 1
+00:04:20 (2) Motor Motor over temp 1 on port 11
+00:05:01 (2) Lost radio connection
+00:05:14 (0) Program stop
+00:08:16 (2) Lost radio connection
+00:00:00 (1) Power On
+00:01:16 (2) Lost radio connection
+00:01:22 (0) Program start slot 1
+00:01:36 (0) Program start slot 1
+00:01:41 (0) Program start slot 1
+00:03:10 (2) Motor Motor over temp 1 on port 11
+00:03:25 (0) Program stop
+00:04:07 (2) Motor Motor over temp 2 on port 11
+00:05:42 (0) Program start slot 1
+00:06:44 (0) Program stop
+00:06:51 (0) Program start slot 1
+00:07:03 (0) Program stop
+00:07:15 (0) Program start slot 1
+00:07:29 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:27 (0) Program start slot 1
+00:00:27 (2) Motor Motor over temp 1 on port 11
+00:03:47 (2) Motor disconnected on port 11
+00:04:59 (2) Motor disconnected on port 12
+00:22:23 (0) Program stop
+00:23:11 (0) Program start slot 1
+00:23:39 (0) Motor connected on port 11
+00:24:50 (2) Battery  0.64V  12% Capacity
+00:26:10 (0) Program stop
+00:00:00 (1) Power On
+00:02:58 (0) Program start slot 1
+00:05:58 (2) Motor disconnected on port 13
+00:18:04 (0) Motor connected on port 13
+00:18:30 (2) Motor disconnected on port 13
+00:20:45 (0) Motor connected on port 13
+00:20:46 (0) Motor connected on port 13
+00:23:04 (0) Motor connected on port 2
+00:24:12 (2) Motor disconnected on port 11
+00:24:23 (0) Motor connected on port 11
+00:26:42 (2) Motor Motor over temp 1 on port 4
+00:28:30 (2) Motor disconnected on port 12
+00:28:30 (0) Motor connected on port 12
+00:28:32 (2) Motor disconnected on port 12
+00:28:33 (0) Motor connected on port 12
+00:28:42 (0) Motor connected on port 12
+00:28:50 (0) Motor connected on port 4
+00:29:24 (0) Program start slot 1
+00:36:39 (2) Motor Motor over temp 2 on port 4
+00:50:59 (2) Motor Motor over temp 2 on port 4
+00:57:05 (2) Battery  0.64V  12% Capacity
+01:04:40 (2) Motor Motor over temp 2 on port 4
+01:06:38 (2) Low Battery Voltage
+00:00:00 (1) Power On
+00:00:00 (2) Battery  0.00V  11% Capacity
+00:00:25 (0) Program start slot 1
+00:00:32 (2) Low Battery Cell 2
+00:00:32 (2) Low Battery Voltage
+00:00:33 (2) Low Battery Cell 1
+00:00:34 (2) Low Battery Cell 3
+00:00:00 (1) Power On
+00:01:41 (0) Program start slot 1
+00:01:45 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:16 (0) Program start slot 1
+00:00:30 (0) Program stop
+00:00:32 (0) Program start slot 1
+00:00:38 (0) Program stop
+00:00:45 (0) Program start slot 1
+00:03:08 (0) Program stop
+00:05:07 (2) Motor Motor over temp 1 on port 11
+00:00:00 (1) Power On
+00:00:15 (0) Program start slot 1
+00:00:21 (0) Program stop
+00:00:23 (0) Program start slot 1
+00:00:27 (0) Program stop
+00:00:33 (0) Program start slot 1
+00:04:05 (0) Program stop
+00:04:08 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:07 (0) Program start slot 1
+00:00:45 (0) Program stop
+00:00:48 (0) Program start slot 1
+00:03:02 (0) Program stop
+00:03:05 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:03:02 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:08 (0) Program start slot 1
+00:00:51 (0) Program stop
+00:00:58 (0) Program start slot 1
+00:01:41 (0) Program stop
+00:02:53 (2) Lost radio connection
+00:03:01 (0) Program start slot 1
+00:03:05 (0) Program start slot 1
+00:03:24 (0) Program stop
+00:06:03 (0) Program start slot 1
+00:06:05 (0) Program start slot 1
+00:06:09 (0) Program stop
+00:07:32 (0) Program start slot 1
+00:07:35 (0) Program start slot 1
+00:07:40 (0) Program stop
+00:13:51 (0) Program start slot 1
+00:13:55 (0) Program start slot 1
+00:14:04 (0) Program stop
+00:14:40 (0) Program start slot 1
+00:14:43 (0) Program start slot 1
+00:14:47 (0) Program stop
+00:15:32 (0) Program start slot 1
+00:15:38 (0) Program start slot 1
+00:15:41 (0) Program stop
+00:17:20 (0) Program start slot 1
+00:17:24 (0) Program start slot 1
+00:17:34 (0) Program stop
+00:19:19 (0) Program start slot 1
+00:19:25 (0) Program start slot 1
+00:19:31 (0) Program stop
+00:20:58 (0) Program start slot 1
+00:21:00 (0) Program start slot 1
+00:22:24 (2) Motor Motor over temp 1 on port 11
+00:22:49 (2) Motor Motor over temp 2 on port 11
+00:23:29 (2) Motor Motor over temp 3 on port 11
+00:23:37 (0) Program stop
+00:23:42 (0) Program start slot 1
+00:23:49 (0) Program start slot 1
+00:23:57 (0) Program stop
+00:26:05 (0) Program start slot 1
+00:26:08 (0) Program start slot 1
+00:26:15 (0) Program stop
+00:26:49 (0) Program start slot 1
+00:27:21 (0) Program stop
+00:30:17 (2) Motor Motor over temp 2 on port 11
+00:31:46 (0) Program start slot 1
+00:33:30 (2) Motor Motor over temp 1 on port 11
+00:35:06 (0) Program start slot 1
+00:41:02 (0) Program start slot 1
+00:41:30 (0) Program stop
+00:44:31 (0) Program start slot 1
+00:44:55 (0) Program stop
+00:00:00 (1) Power On
+00:00:19 (0) Program start slot 1
+00:01:06 (2) Motor Motor over temp 1 on port 11
+00:01:23 (0) Program stop
+00:00:00 (1) Power On
+00:00:33 (0) Program start slot 1
+00:00:55 (2) Lost radio connection
+00:03:57 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:46 (2) Lost radio connection
+00:00:50 (0) Field tether connected
+00:00:50 (3) Battery 13.06V  99% Capacity
+00:00:50 (0) Disabled
+10:09:50 (4) --> 10:09:50
+10:09:50 (4) VRC-25-0512
+10:09:50 (4) Q-0002
+10:10:07 (0) Program start slot 1
+10:10:20 (0) Auton Start
+10:10:50 (0) Disabled
+10:11:09 (0) Drive Start
+10:12:39 (0) Match End
+10:16:04 (0) Program stop
+00:00:00 (1) Power On
+00:00:55 (2) Lost radio connection
+00:01:03 (0) Program start slot 1
+00:01:06 (0) Program start slot 1
+00:01:29 (0) Program stop
+00:00:00 (1) Power On
+00:00:19 (2) Lost radio connection
+00:00:27 (0) Program start slot 1
+00:00:55 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:12 (2) Lost radio connection
+00:00:16 (0) Field tether connected
+00:00:16 (3) Battery 12.99V  69% Capacity
+00:00:16 (0) Disabled
+10:26:42 (4) --> 10:26:42
+10:26:42 (4) VRC-25-0512
+10:26:42 (4) Q-0005
+10:27:00 (0) Program start slot 1
+10:27:25 (0) Auton Start
+10:27:36 (0) Disabled
+10:27:46 (0) Drive Start
+10:29:16 (0) Match End
+10:31:03 (2) Lost radio connection
+10:34:05 (0) Program stop
+00:00:00 (1) Power On
+00:01:08 (2) Lost radio connection
+00:01:14 (0) Program start slot 1
+00:01:16 (0) Program start slot 1
+00:01:41 (0) Program stop
+00:04:46 (0) Program start slot 1
+00:04:51 (0) Program start slot 1
+00:05:26 (0) Program stop
+00:05:31 (0) Program start slot 1
+00:00:00 (1) Power On
+00:01:12 (0) Program start slot 1
+00:01:23 (0) Program stop
+00:01:27 (0) Program start slot 1
+00:01:35 (0) Program stop
+00:03:05 (2) Lost radio connection
+00:03:10 (0) Field tether connected
+00:03:10 (3) Battery 13.06V  96% Capacity
+00:03:10 (0) Disabled
+10:43:50 (4) --> 10:43:50
+10:43:50 (4) VRC-25-0512
+10:43:50 (4) Q-0008
+10:44:06 (0) Program start slot 1
+10:44:27 (0) Program stop
+10:46:12 (0) Program start slot 1
+10:46:53 (0) Auton Start
+10:47:23 (0) Disabled
+10:47:31 (0) Drive Start
+10:48:42 (2) Motor Motor over temp 1 on port 11
+10:49:01 (0) Match End
+10:49:24 (2) Motor Motor over temp 2 on port 11
+10:51:43 (0) Program stop
+00:00:00 (1) Power On
+00:00:09 (0) Program start slot 1
+00:00:09 (2) Motor Motor over temp 2 on port 11
+00:00:49 (0) Program stop
+00:00:00 (1) Power On
+00:00:07 (0) Program start slot 1
+00:00:07 (2) Motor Motor over temp 2 on port 11
+00:00:10 (0) Program stop
+00:00:15 (0) Program start slot 1
+00:01:29 (0) Program stop
+00:01:40 (0) Program start slot 1
+00:01:44 (2) Lost radio connection
+00:01:48 (0) Field tether connected
+00:01:48 (3) Battery 12.99V  71% Capacity
+00:01:48 (0) Disabled
+10:54:50 (4) --> 10:54:50
+10:54:50 (4) VRC-25-0512
+10:54:50 (4) Q-0009
+10:55:06 (0) Auton Start
+10:55:11 (0) Disabled
+10:55:21 (0) Drive Start
+10:56:13 (2) Motor Motor over temp 1 on port 11
+10:56:25 (2) Motor Motor over temp 2 on port 11
+10:56:51 (0) Match End
+10:57:49 (0) Program stop
+10:57:58 (2) Lost radio connection
+10:58:00 (2) Motor Motor over temp 1 on port 9
+00:00:00 (1) Power On
+00:00:46 (2) Lost radio connection
+00:00:52 (0) Program start slot 1
+00:00:57 (0) Program start slot 1
+00:02:30 (0) Program stop
+00:02:35 (0) Program start slot 1
+00:02:38 (0) Program start slot 1
+00:02:43 (0) Program stop
+00:05:54 (0) Program start slot 1
+00:05:56 (0) Program start slot 1
+00:06:07 (0) Program stop
+00:08:26 (0) Program start slot 1
+00:08:29 (0) Program start slot 1
+00:08:52 (0) Program stop
+00:09:10 (0) Program start slot 1
+00:09:13 (0) Program start slot 1
+00:09:23 (0) Program stop
+00:10:01 (2) Lost radio connection
+00:10:48 (0) Field tether connected
+00:10:48 (3) Battery 12.86V  43% Capacity
+00:10:48 (0) Disabled
+00:10:48 (2) Lost radio connection
+00:10:52 (0) Radio linked
+11:12:32 (4) --> 11:12:32
+11:12:32 (4) VRC-25-0512
+11:12:32 (4) Q-0012
+11:12:59 (2) Lost radio connection
+11:13:02 (0) Radio linked
+11:13:10 (0) Program start slot 1
+11:13:32 (0) Auton Start
+11:13:52 (0) Disabled
+11:14:01 (0) Drive Start
+11:15:31 (0) Match End
+11:15:39 (0) Program stop
+11:15:45 (0) Field tether connected
+11:15:45 (3) Battery 12.67V  23% Capacity
+11:16:18 (2) Lost radio connection
+11:16:33 (2) Motor Motor over temp 1 on port 9
+11:16:36 (2) Motor Motor over temp 1 on port 8
+00:00:00 (1) Power On
+00:00:09 (2) Lost radio connection
+00:00:15 (0) Program start slot 1
+00:00:30 (0) Program start slot 1
+00:00:36 (0) Program start slot 1
+00:00:36 (2) Motor Motor over temp 1 on port 9
+00:00:37 (2) Motor Motor over temp 1 on port 8
+00:00:43 (0) Program stop
+00:00:45 (0) Program start slot 1
+00:00:48 (0) Program stop
+00:01:27 (0) Program start slot 1
+00:01:30 (0) Program start slot 1
+00:02:23 (2) Lost radio connection
+00:07:09 (0) Program stop
+00:08:41 (2) Battery  0.64V  12% Capacity
+00:00:00 (1) Power On
+00:00:24 (2) Lost radio connection
+00:00:30 (0) Program start slot 1
+00:00:33 (0) Program start slot 1
+00:02:35 (2) Motor Motor over temp 1 on port 11
+00:02:38 (0) Program stop
+00:03:03 (2) Lost radio connection
+00:03:26 (2) Motor Motor over temp 2 on port 11
+00:03:30 (2) Lost radio connection
+00:03:36 (0) Program start slot 1
+00:03:50 (2) Lost radio connection
+00:06:51 (2) Lost radio connection
+00:00:00 (1) Power On
+00:01:06 (2) Lost radio connection
+00:01:10 (0) Field tether connected
+00:01:10 (3) Battery 13.12V  86% Capacity
+00:01:10 (0) Disabled
+11:38:47 (4) --> 11:38:47
+11:38:47 (4) VRC-25-0512
+11:38:47 (4) Q-0015
+11:38:47 (0) Program start slot 1
+11:39:36 (0) Auton Start
+11:39:41 (0) Disabled
+11:39:51 (0) Drive Start
+11:40:43 (2) Motor Motor over temp 1 on port 11
+11:41:21 (0) Match End
+11:42:20 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:08 (2) Lost radio connection
+00:00:12 (0) Field tether connected
+00:00:12 (3) Battery 12.99V  67% Capacity
+00:00:12 (0) Disabled
+11:45:57 (4) --> 11:45:57
+11:45:57 (4) VRC-25-0512
+11:45:57 (4) Q-0016
+11:45:57 (0) Program start slot 1
+11:46:08 (0) Auton Start
+11:46:38 (0) Disabled
+11:46:47 (0) Drive Start
+11:47:10 (2) Motor Motor over temp 1 on port 11
+11:48:17 (0) Match End
+11:49:16 (0) Program stop
+11:49:24 (0) Field tether connected
+11:49:24 (3) Battery 12.99V  52% Capacity
+11:50:17 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:21 (2) Lost radio connection
+00:00:29 (0) Program start slot 1
+00:02:05 (0) Program start slot 1
+00:02:09 (0) Program start slot 1
+00:03:53 (0) Program stop
+00:03:59 (0) Program start slot 1
+00:04:06 (0) Program start slot 1
+00:04:49 (0) Program stop
+00:05:00 (0) Program start slot 1
+00:05:02 (0) Program start slot 1
+00:05:02 (0) Program start slot 1
+00:06:11 (0) Program stop
+00:07:18 (0) Program start slot 1
+00:07:23 (0) Program start slot 1
+00:08:17 (0) Program stop
+00:08:22 (0) Program start slot 1
+00:08:30 (0) Program start slot 1
+00:08:51 (0) Program stop
+00:09:30 (0) Program start slot 1
+00:09:33 (0) Program start slot 1
+00:11:12 (0) Program stop
+00:27:27 (2) Battery  0.64V  12% Capacity
+00:00:00 (1) Power On
+00:05:17 (2) Lost radio connection
+00:05:23 (0) Program start slot 1
+00:05:28 (0) Program start slot 1
+00:06:12 (0) Program stop
+00:06:18 (0) Program start slot 1
+00:06:19 (0) Program start slot 1
+00:07:06 (0) Program stop
+00:07:11 (0) Program start slot 1
+00:07:14 (0) Program start slot 1
+00:07:56 (0) Program stop
+00:08:01 (0) Program start slot 1
+00:08:04 (0) Program start slot 1
+00:08:44 (0) Program stop
+00:08:49 (0) Program start slot 1
+00:08:51 (0) Program start slot 1
+00:09:01 (0) Program stop
+00:09:06 (0) Program start slot 1
+00:16:54 (0) Program start slot 1
+00:16:57 (0) Program start slot 1
+00:17:09 (0) Program stop
+00:19:17 (0) Program start slot 1
+00:19:17 (0) Program start slot 1
+00:19:26 (0) Program stop
+00:19:44 (0) Program start slot 1
+00:19:47 (0) Program stop
+00:21:30 (0) Program start slot 1
+00:21:33 (0) Program start slot 1
+00:21:39 (0) Program stop
+00:22:46 (0) Program start slot 1
+00:23:12 (0) Program start slot 1
+00:23:26 (0) Program start slot 1
+00:24:03 (0) Program stop
+00:24:08 (0) Program start slot 1
+00:24:11 (0) Program start slot 1
+00:24:21 (0) Program stop
+00:24:29 (0) Program start slot 1
+00:25:16 (2) Motor Motor over temp 1 on port 11
+00:25:36 (0) Program stop
+00:25:42 (0) Program start slot 1
+00:25:45 (0) Program start slot 1
+00:25:50 (2) Motor Motor over temp 2 on port 11
+00:26:47 (2) Motor Motor over temp 3 on port 11
+00:34:27 (0) Program stop
+00:34:32 (0) Program start slot 1
+00:34:36 (0) Program start slot 1
+00:35:12 (0) Program stop
+00:35:17 (0) Program start slot 1
+00:35:20 (0) Program start slot 1
+00:35:32 (0) Program stop
+00:35:38 (0) Program start slot 1
+00:35:43 (0) Program start slot 1
+00:35:43 (2) Motor Motor over temp 2 on port 11
+00:36:17 (2) Motor Motor over temp 2 on port 11
+00:38:35 (0) Program stop
+00:38:40 (0) Program start slot 1
+00:38:46 (0) Program start slot 1
+00:38:59 (0) Program stop
+00:39:02 (0) Program start slot 1
+00:39:02 (0) Program start slot 1
+00:39:05 (0) Program start slot 1
+00:40:05 (0) Program start slot 1
+00:41:26 (2) Lost radio connection
+00:42:01 (2) Motor Motor over temp 1 on port 11
+00:42:27 (0) Program start slot 1
+00:42:30 (0) Program stop
+00:00:00 (1) Power On
+00:00:14 (2) Lost radio connection
+00:00:18 (0) Field tether connected
+00:00:18 (3) Battery 12.80V  41% Capacity
+00:00:18 (0) Disabled
+13:10:45 (4) --> 13:10:45
+13:10:45 (4) VRC-25-0512
+13:10:45 (4) Q-0018
+13:10:48 (0) Program start slot 1
+13:11:17 (4) Q-0020
+13:11:33 (0) Auton Start
+13:11:36 (0) Disabled
+13:11:45 (0) Drive Start
+13:13:15 (0) Match End
+13:14:32 (2) Motor Motor over temp 1 on port 11
+13:14:37 (0) Program stop
+00:00:00 (1) Power On
+00:00:32 (2) Lost radio connection
+00:00:40 (0) Program start slot 1
+00:00:45 (0) Program start slot 1
+00:02:36 (2) Motor Motor over temp 1 on port 11
+00:02:43 (0) Program stop
+00:02:49 (0) Program start slot 1
+00:02:51 (0) Program start slot 1
+00:02:59 (0) Program stop
+00:03:20 (2) Motor Motor over temp 2 on port 11
+00:03:20 (0) Program start slot 1
+00:03:23 (0) Program start slot 1
+00:03:41 (0) Program stop
+00:03:43 (0) Program start slot 1
+00:04:06 (0) Program stop
+00:04:11 (0) Program start slot 1
+00:04:13 (0) Program start slot 1
+00:04:35 (2) Motor Motor over temp 3 on port 11
+00:04:52 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:07 (0) Program start slot 1
+00:00:07 (2) Motor Motor over temp 2 on port 11
+00:00:12 (0) Program stop
+00:00:16 (0) Program start slot 1
+00:00:17 (0) Program start slot 1
+00:00:23 (0) Program stop
+00:00:39 (0) Program start slot 1
+00:00:42 (0) Program stop
+00:00:46 (2) Lost radio connection
+00:00:54 (0) Program start slot 1
+00:01:02 (0) Program start slot 1
+00:01:16 (0) Program stop
+00:01:33 (0) Program start slot 1
+00:01:38 (0) Program start slot 1
+00:01:52 (0) Program stop
+00:01:59 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:58 (0) Field tether connected
+00:00:58 (3) Battery 13.12V  83% Capacity
+00:00:58 (0) Disabled
+13:31:19 (4) --> 13:31:19
+13:31:19 (4) VRC-25-0512
+13:31:19 (4) Q-0023
+13:31:19 (0) Program start slot 1
+13:31:20 (2) Motor Motor over temp 1 on port 11
+13:31:33 (0) Program stop
+13:31:35 (2) Field tether disconnected
+13:31:39 (0) Field tether connected
+13:31:39 (3) Battery 13.06V  83% Capacity
+13:31:39 (2) Lost radio connection
+13:31:41 (0) Radio linked
+13:31:43 (0) Program start slot 1
+13:31:58 (0) Auton Start
+13:32:28 (0) Disabled
+13:32:34 (0) Drive Start
+13:34:04 (0) Match End
+13:34:55 (0) Program stop
+13:34:56 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:30 (0) Program start slot 1
+00:00:37 (0) Field tether connected
+00:00:37 (3) Battery 12.99V  66% Capacity
+00:00:37 (0) Disabled
+00:00:38 (2) Lost radio connection
+00:00:39 (0) Radio linked
+13:38:17 (4) --> 13:38:17
+13:38:17 (4) VRC-25-0512
+13:38:17 (4) Q-0024
+13:38:17 (0) Program stop
+13:38:19 (0) Program start slot 1
+13:38:33 (0) Auton Start
+13:39:03 (0) Disabled
+13:39:11 (0) Drive Start
+13:40:41 (0) Match End
+13:42:05 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:01:31 (2) Lost radio connection
+00:01:33 (0) Field tether connected
+00:01:33 (3) Battery 12.99V  48% Capacity
+00:01:33 (0) Disabled
+13:49:21 (4) --> 13:49:21
+13:49:21 (4) VRC-25-0512
+13:49:21 (4) Q-0026
+13:49:21 (0) Program start slot 1
+13:49:22 (0) Program start slot 1
+13:49:51 (0) Auton Start
+13:50:20 (0) Disabled
+13:50:28 (0) Drive Start
+13:52:24 (0) Program stop
+13:54:00 (2) Lost radio connection
+00:00:00 (1) Power On
+00:01:26 (2) Lost radio connection
+00:03:02 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:08 (0) Field tether connected
+00:00:08 (3) Battery 12.86V  27% Capacity
+00:00:08 (0) Disabled
+00:00:00 (1) Power On
+00:00:01 (0) Field tether connected
+00:00:01 (3) Battery 12.86V  27% Capacity
+00:00:01 (0) Disabled
+00:00:36 (0) Program start slot 1
+00:01:19 (0) Program stop
+00:01:24 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:01 (0) Field tether connected
+00:00:01 (3) Battery 13.31V  96% Capacity
+00:00:01 (0) Disabled
+14:09:40 (4) --> 14:09:40
+14:09:40 (4) VRC-25-0512
+14:09:40 (4) Q-0028
+14:09:51 (0) Program start slot 1
+14:10:03 (0) Auton Start
+14:10:07 (0) Disabled
+14:10:17 (0) Drive Start
+14:11:47 (0) Match End
+14:12:25 (2) Motor Motor over temp 1 on port 11
+14:12:56 (0) Program stop
+14:13:31 (2) Motor Motor over temp 2 on port 11
+00:00:00 (1) Power On
+00:00:30 (2) Lost radio connection
+00:00:51 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:23 (2) Lost radio connection
+00:00:30 (0) Program start slot 1
+00:00:34 (0) Program start slot 1
+00:00:44 (0) Program stop
+00:01:02 (0) Program start slot 1
+00:01:20 (0) Program start slot 1
+00:01:27 (2) Lost radio connection
+00:02:08 (0) Program stop
+00:02:23 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:58 (2) Lost radio connection
+00:01:03 (0) Field tether connected
+00:01:03 (3) Battery 12.99V  69% Capacity
+00:01:03 (0) Disabled
+14:38:19 (4) --> 14:38:19
+14:38:19 (4) VRC-25-0512
+14:42:44 (0) Program start slot 1
+14:42:53 (0) Auton Start
+14:42:59 (0) Disabled
+14:43:18 (0) Program stop
+00:00:00 (1) Power On
+00:00:01 (0) Field tether connected
+00:00:01 (3) Battery 12.99V  63% Capacity
+00:00:01 (0) Disabled
+14:43:42 (4) --> 14:43:42
+14:43:42 (4) VRC-25-0512
+14:43:51 (0) Program start slot 1
+14:44:01 (0) Drive Start
+14:45:01 (0) Disabled
+14:45:35 (2) Lost radio connection
+15:02:48 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:10 (0) Program start slot 1
+00:00:13 (0) Program stop
+00:00:15 (2) Lost radio connection
+00:00:58 (2) Lost radio connection
+00:01:02 (0) Field tether connected
+00:01:02 (3) Battery 12.80V  34% Capacity
+00:01:02 (0) Disabled
+15:04:39 (4) --> 15:04:39
+15:04:39 (4) VRC-25-0512
+15:04:39 (4) Q-0029
+15:06:02 (0) Program start slot 1
+15:06:04 (0) Program stop
+15:07:05 (0) Program start slot 1
+15:08:12 (0) Auton Start
+15:08:42 (0) Disabled
+15:08:51 (0) Drive Start
+15:10:21 (0) Match End
+15:10:55 (2) Motor Motor over temp 1 on port 11
+15:12:15 (2) Motor Motor over temp 2 on port 11
+15:13:20 (2) Battery  0.64V  12% Capacity
+15:17:57 (2) Motor Motor over temp 1 on port 11
+15:23:09 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (2) Battery  0.00V  12% Capacity
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:30 (2) Lost radio connection
+00:00:34 (0) Program start slot 1
+00:00:55 (0) Program start slot 1
+00:01:27 (0) Program stop
+00:02:48 (0) Program start slot 2
+00:03:28 (0) Program start slot 2
+00:03:51 (0) Program stop
+00:12:34 (0) Program start slot 2
+00:12:37 (0) Program start slot 2
+00:14:41 (0) Program stop
+00:14:43 (0) Program start slot 2
+00:15:08 (0) Program stop
+00:24:48 (0) Program start slot 2
+00:24:55 (0) Program start slot 1
+00:24:59 (0) Program stop
+00:25:01 (0) Program start slot 2
+00:25:22 (0) Program stop
+00:26:05 (0) Program start slot 2
+00:26:09 (0) Program start slot 2
+00:26:09 (0) Program start slot 2
+00:26:19 (0) Program stop
+00:26:43 (0) Program start slot 2
+00:26:52 (0) Program start slot 2
+00:29:09 (0) Program stop
+00:29:59 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:53 (2) Lost radio connection
+00:00:58 (0) Program start slot 2
+00:01:45 (0) Program start slot 2
+00:03:02 (0) Program stop
+00:00:00 (1) Power On
+00:01:07 (2) Lost radio connection
+00:01:11 (0) Program start slot 2
+00:01:16 (0) Program start slot 2
+00:01:31 (0) Program stop
+00:02:40 (0) Program start slot 2
+00:02:45 (0) Program start slot 2
+00:03:03 (0) Program stop
+00:05:31 (2) Lost radio connection
+00:05:45 (2) Lost radio connection
+00:05:50 (0) Program start slot 1
+00:06:13 (2) Lost radio connection
+00:06:59 (2) Lost radio connection
+00:07:03 (0) Program start slot 2
+00:07:49 (0) Program start slot 2
+00:08:40 (0) Program stop
+00:09:01 (0) Program start slot 2
+00:09:07 (0) Program start slot 2
+00:09:34 (0) Program stop
+00:10:06 (0) Program start slot 2
+00:10:10 (0) Program start slot 2
+00:10:25 (0) Program stop
+00:16:53 (0) Program start slot 2
+00:17:01 (0) Program start slot 2
+00:17:12 (0) Program stop
+00:19:27 (0) Program start slot 2
+00:19:32 (0) Program stop
+00:19:44 (0) Program start slot 2
+00:19:52 (0) Program start slot 2
+00:21:28 (0) Program stop
+00:22:51 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:05:03 (2) Lost radio connection
+00:05:08 (0) Program start slot 1
+00:06:02 (0) Program start slot 1
+00:06:51 (0) Program stop
+00:07:10 (0) Program start slot 1
+00:07:16 (0) Program start slot 1
+00:07:17 (0) Program start slot 1
+00:08:17 (0) Program stop
+00:00:00 (1) Power On
+00:00:08 (0) Program start slot 1
+00:01:41 (0) Program stop
+00:01:44 (2) Lost radio connection
+00:04:19 (2) Lost radio connection
+00:00:00 (1) Power On
+00:00:25 (2) Lost radio connection
+00:00:30 (0) Program start slot 1
+00:00:41 (0) Program start slot 1
+00:01:02 (0) Program stop
+00:00:00 (1) Power On
+00:00:34 (0) Program start slot 1
+00:00:44 (0) Program stop
+00:17:49 (0) Program start slot 1
+00:17:52 (0) Program start slot 1
+00:18:00 (0) Program stop
+00:18:24 (0) Program start slot 1
+00:18:27 (0) Program start slot 1
+00:18:42 (0) Program stop
+00:20:29 (0) Program start slot 1
+00:20:37 (0) Program start slot 1
+00:20:43 (0) Program stop
+00:20:47 (0) Program start slot 1
+00:20:51 (0) Program stop
+00:21:39 (2) Battery  0.64V  12% Capacity
+00:23:02 (0) Program start slot 1
+00:23:07 (0) Program start slot 1
+00:24:47 (0) Program stop
+00:25:50 (0) Program start slot 1
+00:26:07 (0) Program stop
+00:26:57 (0) Program start slot 0
+00:26:59 (0) Program stop
+00:27:00 (0) Program start slot 0
+00:27:22 (0) Program stop
+00:00:00 (1) Power On
+00:00:37 (0) Program start slot 1
+00:00:40 (0) Program start slot 1
+00:02:56 (0) Program stop
+00:03:37 (0) Program start slot 1
+00:03:46 (0) Program stop
+00:05:51 (0) Program start slot 1
+00:05:53 (0) Program start slot 1
+00:07:56 (0) Program stop
+00:07:59 (0) Program start slot 1
+00:08:02 (0) Program start slot 1
+00:08:56 (0) Program stop
+00:09:23 (0) Program start slot 1
+00:09:25 (0) Program start slot 1
+00:09:34 (0) Program stop
+00:10:54 (0) Program start slot 1
+00:10:58 (0) Program start slot 1
+00:11:06 (0) Program stop
+00:12:21 (0) Program start slot 1
+00:12:23 (0) Program start slot 1
+00:12:27 (0) Program stop
+00:14:17 (0) Program start slot 1
+00:14:19 (0) Program start slot 1
+00:14:28 (0) Program stop
+00:15:05 (0) Program start slot 1
+00:15:19 (0) Program stop
+00:15:35 (0) Program start slot 1
+00:15:37 (0) Program stop
+00:15:40 (0) Program start slot 1
+00:15:42 (0) Program start slot 1
+00:15:51 (0) Program stop
+00:17:36 (0) Program start slot 1
+00:17:38 (0) Program start slot 1
+00:17:51 (0) Program stop
+00:17:53 (0) Program start slot 1
+00:17:58 (0) Program stop
+00:20:21 (0) Program start slot 1
+00:20:25 (0) Program start slot 1
+00:20:25 (0) Program start slot 1
+00:20:37 (0) Program stop
+00:23:09 (0) Program start slot 1
+00:23:15 (0) Program start slot 1
+00:23:36 (0) Program stop
+00:23:39 (0) Program start slot 1
+00:23:46 (0) Program stop
+00:23:59 (0) Program start slot 1
+00:24:07 (0) Program stop
+00:27:55 (0) Program start slot 1
+00:27:58 (0) Program start slot 1
+00:28:25 (0) Program stop
+00:28:28 (0) Program start slot 1
+00:28:31 (0) Program stop
+00:28:39 (0) Program start slot 1
+00:28:48 (0) Program stop
+00:29:08 (0) Program start slot 1
+00:29:12 (0) Program stop
+00:29:48 (0) Program start slot 1
+00:29:52 (0) Program start slot 1
+00:30:05 (0) Program stop
+00:31:12 (0) Program start slot 1
+00:31:14 (0) Program start slot 1
+00:31:27 (0) Program stop
+00:33:16 (0) Program start slot 1
+00:33:17 (0) Program start slot 1
+00:33:50 (0) Program stop
+00:35:22 (0) Program start slot 1
+00:35:22 (0) Program start slot 1
+00:35:27 (0) Program stop
+00:35:29 (0) Program start slot 1
+00:35:38 (0) Program stop
+00:36:08 (0) Program start slot 1
+00:36:20 (0) Program stop
+00:37:35 (0) Program start slot 1
+00:37:37 (0) Program start slot 1
+00:38:02 (0) Program stop
+00:38:04 (0) Program start slot 1
+00:38:20 (0) Program stop
+00:38:44 (0) Program start slot 1
+00:38:45 (0) Program start slot 1
+00:39:01 (0) Program stop
+00:39:16 (0) Program start slot 1
+00:39:30 (0) Program stop
+00:00:00 (1) Power On
+00:01:14 (0) Program start slot 1
+00:01:47 (0) Program stop
+00:02:12 (0) Program start slot 1
+00:02:27 (0) Program stop
+00:02:40 (0) Program start slot 1
+00:02:43 (0) Program start slot 1
+00:03:26 (0) Program stop
+00:00:00 (1) Power On
+00:00:09 (0) Program start slot 1
+00:00:50 (0) Program stop
+00:01:25 (2) Lost radio connection
+00:01:29 (0) Program start slot 1
+00:01:31 (0) Program start slot 1
+00:01:31 (0) Program start slot 1
+00:03:02 (0) Program stop
+00:03:10 (0) Program start slot 1
+00:03:10 (0) Program start slot 1
+00:04:14 (2) Lost radio connection
+00:08:28 (0) Program stop
+00:00:00 (1) Power On
+00:00:00 (1) Power On
+00:00:39 (2) Lost radio connection
+00:00:43 (0) Program start slot 1
+00:01:05 (0) Program start slot 1
+00:01:37 (2) Lost radio connection
+00:03:48 (0) Program stop

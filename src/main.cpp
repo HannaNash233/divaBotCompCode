@@ -46,8 +46,8 @@ motor shotgunMotor = motor(PORT12, ratio18_1, false);
 motor intakeMotor = motor(PORT13, ratio18_1, false);
 
 controller Controller1 = controller(primary);
-motor armMotorA = motor(PORT20, ratio18_1, false);
-motor armMotorB = motor(PORT4, ratio18_1, false);
+motor armMotorA = motor(PORT18, ratio18_1, false);
+motor armMotorB = motor(PORT4, ratio18_1, true);
 motor_group arm = motor_group(armMotorA, armMotorB);
 
 controller Controller2 = controller(partner);
@@ -115,6 +115,8 @@ bool GATE_OPEN = false;
 
 bool INTAKE_TOGGLE = false;
 
+int buttoncount = 0;
+
 //bool wheelIntake = false;
 // 0 - (-60) degrees 
 void open_gate(){
@@ -135,11 +137,13 @@ void intake_run(bool doReverse){
 
   if(doReverse){
     intakeMotor.spin(reverse);
+    INTAKE_ON = false;
   } else {
     intakeMotor.spin(forward);
+    INTAKE_ON = true;
   }
 
-  INTAKE_ON = true;
+  
 }
 
 void shotgun_push(bool direction){
@@ -166,33 +170,60 @@ void shotgun_stop(){
 void intake_stop(){
   intakeMotor.stop();
   INTAKE_ON = false;
+  INTAKE_TOGGLE = false;
 }
 
-void shotgunControl(){
-  if (!Controller1.ButtonR2.pressing() && !Controller1.ButtonL2.pressing()){
-    if (shotgunMotor.position(degrees) != 0){
-      shotgun_return();
-      shotgun_stop();
-    }
+void unclog(){
+  intakeMotor.setVelocity(150, percent);
+  intakeMotor.spin(forward);
+  wait(1,sec);
+  intake_stop();
+}
 
-  } else {
-    if (Controller1.ButtonR2.pressing())
-      shotgun_push(false);
-    if (Controller1.ButtonL2.pressing())
-      shotgun_push(true);
+
+void shotgunControl(){
+  while(true){
+    if (!Controller1.ButtonR2.pressing() && !Controller1.ButtonL2.pressing()){
+      if (shotgunMotor.position(degrees) != 0){
+        shotgun_return();
+        shotgun_stop();
+      }
+
+    } else {
+      if (Controller1.ButtonR2.pressing())
+        shotgun_push(false);
+      if (Controller1.ButtonL2.pressing())
+        shotgun_push(true);
+    }
+    wait(0.1,seconds);
   }
 }
 
 
+void gate_thread(){
+  while(true){
+    if((INTAKE_ON || SG_FLOW) && !GATE_OPEN){
+      open_gate();
+    } else {
+      if (!INTAKE_ON && !SG_FLOW && GATE_OPEN)
+        close_gate();
+    }
+    wait(0.1,seconds);
+  }
+
+}
+
 // may need to nerf the speed if it flings up immediately
 void arm_up(){
-  arm.setVelocity(15, percent);
+  intake_stop();
+  thread UnclogIntake = thread(unclog);
+  arm.setVelocity(25, percent);
   //armMotor.setVelocity(100, percent);
   arm.spin(forward);
 }
 
 void arm_down(){
-  arm.setVelocity(-15, percent);
+  arm.setVelocity(-25, percent);
   //armMotor.setVelocity(100, percent);
   arm.spin(forward);
 }
@@ -206,38 +237,26 @@ void stop_gate() {
   gate.stop();
 }
 
+void toggle_intake(){
+  buttoncount++;
+  if (!INTAKE_TOGGLE && arm.position(degrees) < 8) {
+    INTAKE_TOGGLE = true;
+    intake_run(false);
+    INTAKE_ON = true;
 
+  }
+  else {
+    if(INTAKE_TOGGLE && INTAKE_ON){
+    INTAKE_TOGGLE = false;
+    intake_stop();
+    INTAKE_ON = false;
+    }
 
-
-void ntk(){
-  /*while(true){
-    Controller1.ButtonA.pressed(intakePressed);
-    Controller1.ButtonB.pressed(intakeStop);
-    shotgunControl(); 
-  }*/
- 
-  //shotgunControl();
-  //Controller1.ButtonA.pressed(intakePressed);
-  //Controller1.ButtonB.pressed(intakeStop);
-
-  shotgunControl(); 
-
-}
-
-/*void armControl(){
-  Controller1.ButtonUp.pressed(armUp);
-  Controller1.ButtonDown.pressed(armDown);
-  Controller1.ButtonUp.released(armStop);
-  Controller1.ButtonDown.released(armStop);
-
-  intakeRight.setVelocity(100, percent);
-  intakeRight.spin(reverse);
-} */
-
-void arm_control(){
-  arm_up();
+  }
 
 }
+
+
 
 void preAutonomous(void) {
   // actions to do when the program starts
@@ -255,9 +274,13 @@ void autonomous(void) {
 
 void userControl(void) {
   Brain.Screen.clearScreen();
+
+
   // place driver control in this while loop
   int LeftPercent;
   int RightPercent;
+
+
   /*
   DriveRHD
   DriveRT
@@ -277,6 +300,20 @@ void userControl(void) {
   
 
 
+  //Here we are registering events
+  //THESE ARE NOT SUPPOSED TO BE LOOPED
+  Controller1.ButtonA.pressed(toggle_intake);
+  Controller1.ButtonB.pressed(intake_stop);
+
+  Controller1.ButtonUp.pressed(arm_up);
+  Controller1.ButtonDown.pressed(arm_down);
+
+  Controller1.ButtonUp.released(arm_stop);
+  Controller1.ButtonDown.released(arm_stop);
+
+  thread runGate = thread(gate_thread);
+  thread shotgun = thread(shotgunControl);
+  
 
   while (true) {
     //wait(20, msec);
@@ -284,18 +321,8 @@ void userControl(void) {
     //DriveLHD.setVelocity(50, percent);
     
 
-    if (INTAKE_ON){
-      RightPercent = (Controller1.Axis2.position()/3);
-      LeftPercent = (Controller1.Axis3.position()/3);
-    } else {
-      RightPercent = Controller1.Axis2.position();
-      LeftPercent = Controller1.Axis3.position();
-    }
-    
-    Brain.Screen.clearScreen();
-    Brain.Screen.print(RightPercent);
-
- 
+    RightPercent = Controller1.Axis2.position();
+    LeftPercent = Controller1.Axis3.position();
 
 
     DriveRHD.setVelocity(RightPercent, percent);
@@ -313,93 +340,6 @@ void userControl(void) {
     DriveLHD.spin(forward);
     DriveLT.spin(forward);
     DriveLB.spin(forward);
-
-   // thread ArmControl = thread(armControl);
-    //Controller1.ButtonA.pressed(intakePressed);
-    //Controller1.ButtonB.pressed(intakeStop);
-
-    
-    
-    //thread ShotgunControl = thread(shotgunControl);
-
-    //Controller1.ButtonR2.pressed(shotgunL);
-    //Controller1.ButtonL2.pressed(shotgunR);
-
-    //Controller1.ButtonLeft.pressed(openShot);
-    //Controller1.ButtonRight.pressed(closeShot);
-
-    //if (!Controller1.ButtonLeft.pressing() && !Controller1.ButtonRight.pressing()){
-    //  stopGate();
-    //}
-
-    /*if (!Controller1.ButtonR2.pressing() && !Controller1.ButtonL2.pressing()){
-      if (shotgunMotor.position(degrees) != 0){
-        shotgunReturn();
-        shotgunStop();
-      }
-
-    } else {
-      if (Controller1.ButtonR2.pressing())
-        shotgunR();
-      if (Controller1.ButtonL2.pressing())
-        shotgunL();
-    }*/
-    //Controller1.ButtonR2.released();
-    thread shotgun = thread(shotgunControl);
-
-    if (Controller1.ButtonUp.pressing()){
-      thread ArmControl = thread(arm_control);
-      //start intake in reverse to unclog
-      thread unclog = thread(intake_run);
-    }
-    if (!Controller1.ButtonUp.pressing()){
-      //stop intake
-      intake_stop();
-    }
-
-    //thread allIntake = thread(ntk);
-    /*if (Controller1.ButtonA.pressing()){
-      intake();
-    }*/
-    //Controller1.ButtonA.pressed(intake);
-    if (Controller1.ButtonA.pressing()){
-      if (!INTAKE_ON) {
-        INTAKE_TOGGLE = true;
-        intake_pressed();
-        INTAKE_ON = true;
-       
-        //wait(1, seconds);
-      }
-      else {
-        //wait(1, seconds);
-        INTAKE_TOGGLE = false;
-        intake_stop();
-        INTAKE_ON = false;
-    
-      }
-      
-    }
-   
-    Controller1.ButtonB.pressed(intake_stop);
-   
-   // Controller1.Screen.print(intakeRight.velocity(percent));
-    
-    
-    //Controller1.ButtonA.pressed(intake);
-    //Controller1.ButtonB.pressed(intak)
-
-    
-
-    //Controller1.ButtonUp.pressed(armUp);
-    Controller1.ButtonDown.pressed(arm_down);
-
-    //Controller1.ButtonUp.released(armStop);
-    Controller1.ButtonDown.released(arm_stop);
-    
-
- 
-
-
   }
 }
 
